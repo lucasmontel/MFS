@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/background.png);
+}
+
+
+nav{
+    background-color: #00327e;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+}
+
+nav li a:hover{
+    background-color: white;
+    color: black;
+}
